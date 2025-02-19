@@ -1,0 +1,152 @@
+.search{
+    display: flex;
+    margin-top:20px;
+}
+.left-part-of-search {
+    display:flex;
+    flex-direction: row;
+    margin-left:20px;
+}
+.hamburger-icon{
+    border-radius: 50%;
+    border:none;
+    background-color: white;
+    cursor:pointer;
+    margin-right:20px;
+    padding: 7px 7px 5px 7px;
+    margin-top: -7px;
+}
+.hamburger-icon img{
+    height: 22px;
+
+}
+.hamburger-icon:hover{
+    background-color: #f1f1f1;
+}
+.hamburger-icon:active{
+    background-color: rgb(199, 198, 198);
+}
+.logo{
+    height:22px;
+    font-family: "League Gothic", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display:flex;
+    cursor: pointer;
+}
+.logo img{
+    height: 22px;
+    margin-right: 2px;
+}
+h1{
+    margin-top:-4px;
+}
+.middle-part-of-search{
+    margin-left:150px;
+    display:flex;
+}
+.search-bar {
+    display: flex;
+    flex:1;
+    align-items: center;
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    overflow: hidden; 
+    background-color: white;
+    margin-top:-13px;
+    box-shadow: inset 1px 5px 5px rgba(0, 0, 0, 0.105);
+    max-width:600px;
+    width:100%;
+
+}
+.search-bar input {
+    flex: 1; 
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-bar button {
+    background: white;
+    padding: 10px 15px;
+    cursor: pointer;
+   border:1px solid #ccc;
+   background-color: #f8f8f8;
+}
+
+.search-bar button:hover {
+    background: #f1f1f1;
+}
+.search-bar button img{
+    height:20px
+}
+.microphone{
+    margin-left:20px;
+    background-color: #f1f1f1;
+    border-radius:50%;
+    margin-top: -11px;
+    cursor: pointer;
+    height: 40px;
+    margin-right: 10px;;
+}
+.microphone button{
+    border:none;
+    border-radius: 50%;
+    padding: 7px 9px ;
+}
+.microphone button:hover{
+    background-color: #ccc;
+}
+.microphone-image{
+    height: 19px;
+    margin-top:7px;
+}
+.create-button{
+    margin-top: -9px;
+   
+}
+.create-button button{
+    border:none;
+    display:flex;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.create-button button:hover{
+    background-color: #ccc;
+}
+.add-button{
+    height: 18px;
+    padding-top:10px;
+    padding-left:3px;
+    padding-right: 7px;
+}
+.create-button p {
+    padding-right:10px;
+}
+.bell{
+    margin-top: -9px;
+    margin-left: 15px;
+}
+.bell button{
+    border:none;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    padding:6px;
+    
+}
+.bell button img{
+    height:30px;
+
+}
+.bell button:hover{
+    background-color: #f1f1f1;
+}
+.profile{
+    height:40px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left:40px;
+}
