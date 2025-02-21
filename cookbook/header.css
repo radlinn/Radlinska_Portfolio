@@ -11,6 +11,7 @@
 }
 h1{
     font-family: Roboto, Arial;
+    color: black;
 }
 .middle-section{
     display: flex;
@@ -19,11 +20,13 @@ h1{
 }
 .search-bar{
     font-family: Roboto, Arial;
-    padding:6px;
-    border-radius: 10px;
-    border: 1px solid gray;
-    width:
-    
+    border-radius: 40px;
+    border: 1px solid rgb(199, 199, 199);;
+    height: 40px;
+    width:30%;
+    font-size: 15px;
+    padding: 20px 45px 20px 20px;
+    outline: none;
 }
 .right-section{
     margin-left: 50px;
@@ -36,6 +39,12 @@ h1{
     color: gray;
     white-space: nowrap;
 }
+.header a{
+    text-decoration: none;
+}
+.black{
+    color:black
+}
 @media(max-width:840px){
     .header{
         display:flex;
@@ -43,6 +52,10 @@ h1{
         justify-content: center;
         align-items: center;
         height:200px
+    }
+    .search-bar{
+        width:100%;
+        margin: 10px;
     }
     .left-section{
         margin:0;
