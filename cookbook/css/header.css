@@ -1,0 +1,103 @@
+header .header{
+    display: grid;
+    grid-template-columns: 350px 1fr 1fr;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+.header .left-section{
+    margin-left: 50px;
+    display:flex;
+    align-items: center;
+}
+.left-section h1{
+    font-family: Roboto, Arial;
+    color: black;
+    font-size: 32px;
+}
+.header .middle-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.middle-section .search-bar{
+    font-family: Roboto, Arial;
+    border-radius: 40px;
+    border: 1px solid rgb(199, 199, 199);;
+    height: 40px;
+    width:30%;
+    font-size: 15px;
+    padding: 20px 45px 20px 20px;
+    outline: none;
+}
+.header .right-section{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+.right-section .log-in-p {
+    color: gray;
+    white-space: nowrap;
+}
+.header a{
+    text-decoration: none;
+    font-family: Roboto, Arial;
+    white-space:nowrap;
+}
+.right-section .black{
+    color:black
+}
+@media(max-width:479px){
+    header .header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:200px
+    }
+    .middle-section .search-bar{
+        width:100%;
+        margin: 10px;  
+    }
+    .header .left-section{
+        margin:0;
+    }
+    .header .right-section a{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .log-in-p{
+        margin-left:20px;
+    }
+}
+@media(min-width:480px) and (max-width:879px){
+    header .header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:200px
+    }
+    .middle-section .search-bar{
+        width:100%;
+        margin: 10px;
+        
+    }
+    .header .left-section{
+        margin:0;
+    }
+    .header .right-section a{
+        margin-right: 20px;
+        margin-top:20px;
+    }
+}
+@media(min-width:880px) and (max-width:1100px){
+    .middle-section .search-bar{
+        min-width:130px;
+        margin: 10px;
+    }
+    .header .right-section a{
+        margin-right: 20px;
+    }
+}
