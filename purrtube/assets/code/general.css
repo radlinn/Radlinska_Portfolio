@@ -11,5 +11,10 @@ body{
 button,
 img,
 p {
-    cursor:grab;
+    cursor:pointer;
+}
+@media(min-width:1200px){
+    body{
+        padding-left: 220px;
+    }
 }

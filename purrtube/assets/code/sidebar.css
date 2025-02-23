@@ -25,5 +25,28 @@
 .sidebar-link div{
     font-family: Roboto, Arial;
     font-size: 10px;
+}
 
+
+
+@media (min-width:1200px){
+   .sidebar{
+    width:200px;
+   }
+   .sidebar-link{
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 15px;
+    height:40px;
+    padding-left: 8px;
+    border-radius: 8px;
+   }
+   .sidebar-link img{
+    margin-right: 10px;
+    height:28px;
+   }
+   .sidebar-link div{
+    font-size: 14px;
+    margin-left: 15px;
+   }
 }
