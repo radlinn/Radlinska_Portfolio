@@ -1,7 +1,23 @@
 .footer{
     height:100px;
     border-top: 1px solid rgb(200, 199, 199);
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left:60px;
     margin-right:60px;
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+.icons{
+    position:absolute;
+    right:0;
+    font-size: 40px;
+    
+}
+.icons a{
+    color:gray;
+    transition: transform 0.3s ease-in-out;
+}
+.icons a:hover{
+    color:black;
 }
