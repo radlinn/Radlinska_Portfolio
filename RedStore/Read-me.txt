@@ -1,12 +1,11 @@
 Stronę robiłam wspierając się o tutorial, który znalazłam,
 jednak postanowiłam ją i tak dodać ponieważ był to najobszerniejszy 
 tutorial jaki znalazłam jeśli chodzi o sklepy ecommerce, a wiedza w 
-nim przekazana wydała mi się logiczna i łatwo przyswajalna. Myślę, że na 
-bazie tego mogłabym zrobić kilka innych sklepów i taki mam plan na najbliższy czas.
+nim przekazana wydała mi się logiczna i łatwo przyswajalna ale też ukończenie tej strony to było wyzwanie, 
+które troche czasu mi zajęło. Myślę, że na bazie tego mogłabym zrobić kilka innych sklepów i taki mam plan na najbliższy czas.
 
 Udoskonaliłam, moim zdaniem, ten materiał o wiedzę, którą posiadam tj:
 -zadbałam o spójniejszy rozkład kodu dzieląc go na header main section(s) i footer, zamiast zapisywać wszystko w klasach divów
--starałam się trzymać kody css w oddzielnych plikach (nie wiem czy to dobra praktyka po prostu wydało mi się to czystsze i logiczne)
 -pozbyłam się nadmiarowych h1, pamiętając, że dobrą praktyką jest to, gdy na stronie jest tylko jeden h1
 -dodałam własne komentarze, które pomogą mi lepiej zapmaiętać np nowe fragmenty, czy podzielą plik na logiczne części
 -dodałam teksty alternatywne, ponieważ wiem, że pomagają one przy pozycjonowaniu strony
