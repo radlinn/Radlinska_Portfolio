@@ -1,0 +1,5 @@
+Strona powstała z inspiracji znalezionym efektem blur,
+od razu go skojrzyłam, że mógłby ładnie wyglądać na tle drzew, 
+stąd pomysł na stronę logowania do Lasów Państwowych. 
+Wykorzystałam do niej mix strony logowania z overcooked i strony logowania
+ze strony RedStore i tak przerobiłam, żeby działało.
