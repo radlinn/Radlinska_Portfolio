@@ -63,6 +63,13 @@ ul{
 }
 
 
+.slider-wrapper{
+    position:relative;
+    max-width: 48rm;
+    margin:0 auto;
+}
+
+
 @media(max-width:639px){
     .grid-container-of-images{
         grid-template-columns: 1fr;

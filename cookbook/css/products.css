@@ -67,7 +67,15 @@ button{
     background-color: transparent;
     cursor: pointer;
 }
-@media (max-width: 850px){
+@media(max-width: 470px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid-container-of-images{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:471px) and (max-width: 850px){
     .grid-container{
         grid-template-columns: 1fr 2fr 1fr;
     }
