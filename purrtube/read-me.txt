@@ -1,0 +1,5 @@
+To pierwszy projekt, który wykonałam po skończeniu zaawansowanej części
+dotyczącej html i css z kusru z bootcampa appbrewery. Wiem, że nie jest idealnie, 
+ale doszłam do wniosku, że w przypadku takiego pierwszego projektu lepiej jest przejść dalej, 
+niż polerować go dłużej. Ostatecznie wiele się nauczyłam i miałam okazję przetestować, niektóre zdobyte umiejętności 
+w praktyce. 
