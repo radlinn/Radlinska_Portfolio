@@ -1,0 +1,4 @@
+Tę stronę zrobiłam wraz z kursem appbrewery, bootsrtap to nie jest mój ulubiony framework, przez
+to ile miejsca zajmuje w html i czyni go bardziej nieczytelnym. Jednak myśle, że udało mi się opanować 
+podstawy bootsrtapa, z czego się bardzo cieszę, jego fragmenty możliwe, że chętnie bym wykorzystywała w stronach, 
+aby usprawnić proces ich robienia. 
