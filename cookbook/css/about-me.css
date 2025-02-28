@@ -32,3 +32,8 @@
 strong{
     white-space: nowrap;
 }
+@media (max-width:600px) {
+    .about-text{
+        font-size:16px;
+    }
+}

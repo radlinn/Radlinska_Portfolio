@@ -3,9 +3,9 @@ Zapisałam tu, wszytsko co sobie przypominałam, w ostatnim czasie.
 Dlatego pliki nie są w jednym pliku stylu. 
 
 To co bym poprawiła drugi raz robiąc stronę to:
--inaczej skonstruowałabym karuzelę
 -wszystkie pliki bym budowała na bazie poprzednich korzystając z podobnych divów 
 -wszystkie style zapisałabym w jednym pliku podzielonym kometarzami (chociaż nie wiem czy to jest najlepsza praktyka)
 -skonstruowałabym stronę koszyka
 -ułożyłabym kod bardziej schludnie
--loga nie robiłabym jako h1, a zrobiłabym obraz png 
+-loga nie robiłabym jako h1, a zrobiłabym obraz png/svg, jednak przez to, że nie miałam dostępu do odpowedniego (photoshop/illustrator)
+narzędzia, nie byłam w stanie przygotować tego loga w odpowiedniej jakości. Dzięki temu tytuły w podstronach miałyby h1, co pomogłoby z czytaniem strony przez czytniki i pozycjonowaniem jej.

@@ -42,7 +42,6 @@ header .header{
 }
 .header a{
     text-decoration: none;
-    font-family: Roboto, Arial;
     white-space:nowrap;
 }
 .right-section .black{
@@ -80,7 +79,7 @@ header .header{
         font-size: 16px;
     }
 }
-@media(min-width:480px) and (max-width:879px){
+@media(min-width:380px) and (max-width:879px){
     header .header{
         display:flex;
         flex-direction: column;
