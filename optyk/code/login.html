@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optyk</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="row">
+            <div class="logo">
+              <a href="../code/index.html"
+                ><img
+                  src="../images/logo.avif"
+                  alt="logo strony z nazwą optic i niebieskimi okularami"
+              /></a>
+            </div>
+
+            <div class="search-bar">
+              <input class="search" type="text" placeholder="Szukaj" />
+              <i class="bx bx-search"></i>
+            </div>
+
+            <div class="icons">
+              <div class="basket-icon">
+                <div class="basket">
+                  <a href="./basket.html"><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+              <div class="account-icon">
+                <div class="account">
+                  <a href="./login.html"><i class="bx bx-user-circle"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <hr />
+    </header>
+    <section class="heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <a href="../code/products.html"> Korekcyjne</a>
+          </div>
+          <div class="col-7">Zerówki</div>
+          <div class="col-7">Przeciwsłoneczne</div>
+          <div class="col-7">Badanie wzroku</div>
+          <div class="col-7">Akcesoria</div>
+          <div class="col-7">O nas</div>
+          <div class="col-7">Showroom</div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="login">
+        <div class="form-container">
+          <div class="form-btn">
+            <span onclick="login()">Zaloguj</span>
+            <span onclick="register()">Zarejestruj</span>
+            <hr id="Indicator" />
+          </div>
+          <form id="LoginForm">
+            <input type="text" placeholder="Nazwa użytkownika" />
+            <input type="password" placeholder="Hasło" />
+            <button type="submit" class="btn">Zaloguj</button>
+            <a href="">Przypomnij hasło</a>
+          </form>
+          <form id="RegForm">
+            <div class="input-box">
+              <input type="text" placeholder="Nazwa użytkownika" />
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Hasło" />
+              <button type="submit" class="btn">Zarejestruj</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="../images/logo.avif" alt="logo" />
+          </div>
+          <div class="col-4">
+            <h3>Kontakt</h3>
+            <ul>
+              <li>Skontaktuj się z nami</li>
+              <li>Formularz reklamacyjny</li>
+              <li>Formularz zwrotu</li>
+              <li>Znajdź najbliższy punkt</li>
+              <li>Umów badanie wzroku</li>
+              <li>Kariera</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3>Pomoc</h3>
+            <ul>
+              <li>FAQ</li>
+              <li>Zakup na raty</li>
+              <li>Regulaminy</li>
+              <li>Zwroty</li>
+              <li>Zmierz rozstaw źrenic</li>
+              <li>Polityka prywatności</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3>O Nas</h3>
+            <ul>
+              <li>Poznaj OPTIC</li>
+              <li>Blog</li>
+              <li>Projekty UE</li>
+              <li>Mapa strony</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var LoginForm = document.getElementById("LoginForm");
+      var RegForm = document.getElementById("RegForm");
+      var Indicator = document.getElementById("Indicator");
+
+      function register() {
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+      }
+      function login() {
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+      }
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optyk</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="row">
+            <div class="logo">
+              <a href="../code/index.html"
+                ><img
+                  src="../images/logo.avif"
+                  alt="logo strony z nazwą optic i niebieskimi okularami"
+              /></a>
+            </div>
+
+            <div class="search-bar">
+              <input class="search" type="text" placeholder="Szukaj" />
+              <i class="bx bx-search"></i>
+            </div>
+
+            <div class="icons">
+              <div class="basket-icon">
+                <div class="basket">
+                  <a href="./basket.html"><i class="bx bx-cart"></i></a>
+                </div>
+              </div>
+              <div class="account-icon">
+                <div class="account">
+                  <a href="./login.html"><i class="bx bx-user-circle"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <hr />
+    </header>
+    <section class="heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <a href="../code/products.html"> Korekcyjne</a>
+          </div>
+          <div class="col-7">Zerówki</div>
+          <div class="col-7">Przeciwsłoneczne</div>
+          <div class="col-7">Badanie wzroku</div>
+          <div class="col-7">Akcesoria</div>
+          <div class="col-7">O nas</div>
+          <div class="col-7">Showroom</div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section>
+        <div class="slider">
+          <div class="slides">
+            <img
+              src="../images/baner1-jak_dobra_okulary_korekcyjne_do_kszta_tu_twarzy.jpg"
+              alt="trzy kobiety w okularach"
+            />
+            <img
+              src="../images/baner2-Okulary_do_czytania_jakie_wybra_.jpg"
+              alt="kobieta w okularach z książką"
+            />
+            <img
+              src="../images/baner3-Okulary_do_monitora.jpg"
+              alt="kobieta w okularach przed komputerem"
+            />
+            <img
+              src="../images/baner4-Okulary_progresywne_.jpg"
+              alt="kobieta w okularach"
+            />
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094;</button>
+          <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row-text see">
+            <h2>Nowa Kolekcja</h2>
+            <h3>See the difference!</h3>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img
+                src="../images/see the difference1.jpg"
+                alt="kobieta w okularach"
+              />
+            </div>
+            <div class="col-3">
+              <img
+                src="../images/see the diffrence2.jpg"
+                alt="kobieta w okularach"
+              />
+            </div>
+            <div class="col-3">
+              <img
+                src="../images/see the difference3.jpg"
+                alt="kobieta w okularach"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <img
+                src="../images/blog-jak dobrac okulary.jpg"
+                alt="kobieta trzymająca w rekach dwie pary okularów"
+              />
+              <div class="text">
+                <h2>Badanie Wzroku</h2>
+                <h3>Już teraz możesz bezpłatnie zbadać wzrok u nas</h3>
+                <button>
+                  Zapisz się teraz <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row-text">
+            <h2>Oferta</h2>
+          </div>
+          <div class="row">
+            <div class="col-4 hover">
+              <img src="../images/product4.png" alt="okulary" />
+              <div class="text-on-hover">
+                <p>Sprawdź teraz <a href="./product-page.html"> &#10095;</a></p>
+              </div>
+            </div>
+            <div class="col-4 hover">
+              <img src="../images/product2.png" alt="okulary" />
+              <div class="text-on-hover">
+                <p>Sprawdź teraz &#10095;</p>
+              </div>
+            </div>
+            <div class="col-4 hover">
+              <img src="../images/product3.png" alt="okulary" />
+              <div class="text-on-hover">
+                <p>Sprawdź teraz &#10095;</p>
+              </div>
+            </div>
+            <div class="col-4 hover">
+              <img src="../images/product1.jpg" alt="okulary" />
+              <div class="text-on-hover">
+                <p>Sprawdź teraz &#10095;</p>
+              </div>
+            </div>
+          </div>
+          <div class="row-text">
+            <a href="../code/products.html"><button>Zobacz więcej</button></a>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="big-container">
+          <div class="container">
+            <div class="row-text">
+              <h2>Poznaj nasz zespół</h2>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <img src="../images/testimonial1.png" alt="zdjęcie mężzyzny" />
+                <h3>Marek, lek. optyk</h3>
+              </div>
+              <div class="col-3 optical">
+                <img src="../images/testimonial2.jpg" alt="zdjęcie kobiety" />
+                <h3>Joanna, optometrystka</h3>
+              </div>
+              <div class="col-3">
+                <img src="../images/testimonial3.jpg" alt="zdjęcie kobiety" />
+                <h3>Żaneta, lek. optyczka</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-text">
+            <div class="col-2">
+              <h2>
+                Co przychodzi Ci do głowy, kiedy myślisz o&nbsp;okularach?
+              </h2>
+              <p>
+                Wiemy, że dobry wzrok to podstawa dobrego samopoczucia.
+                Wybierając okulary nie możesz jednak zapominać o tym, że to
+                również nieodłączny element Twojego wizerunku. <br /><br />
+
+                W OPTIC tworzymy okulary z miłością - do zdrowia, i do mody.
+                Dbamy o&nbsp;detale. Chcemy, by każda oprawa pomagała Ci pisać
+                Twoją własną historię. Projektujemy, czuwamy nad procesem
+                produkcji, a na końcu umieszczamy produkt na półkach naszych
+                salonów, aby każdy mógł zobaczyć, dotknąć i&nbsp;przekonać się,
+                jak ważna jest dla nas jakość.
+              </p>
+            </div>
+            <div class="col-2">
+              <h2>Sklep z okularami czynny całą dobę</h2>
+              <p>
+                Kup okulary online ciesząc się ogromnym wyborem bez względu
+                na&nbsp;godzinę. Modne okulary zakupisz w kilku krokach przez
+                nasz sklep internetowy z&nbsp;oprawkami do okularów i okularami.
+                Wystarczy, że&nbsp;wybierzesz model jaki Cię interesuje,
+                ustalisz grubość soczewki i&nbsp;inne cechy, dołączysz receptę a
+                Twoje wymarzone okulary korekcyjne będą u Ciebie lada moment!
+                Jeśli nie posiadasz recepty, to bez problemu w kilka chwil
+                umówisz się na dogodny termin na badanie wzroku. W każdym z
+                naszych showroomów pracuje doświadczony optyk - online ustalisz
+                optymalny termin na wizytę.<br />
+              </p>
+              <a href="./products.html"><h2>&#x2023; Okulary online sklep OPTIC</h2></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="../images/logo.avif" alt="logo" />
+          </div>
+          <div class="col-4">
+            <h3>Kontakt</h3>
+            <ul>
+              <li>Skontaktuj się z nami</li>
+              <li>Formularz reklamacyjny</li>
+              <li>Formularz zwrotu</li>
+              <li>Znajdź najbliższy punkt</li>
+              <li>Umów badanie wzroku</li>
+              <li>Kariera</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3>Pomoc</h3>
+            <ul>
+              <li>FAQ</li>
+              <li>Zakup na raty</li>
+              <li>Regulaminy</li>
+              <li>Zwroty</li>
+              <li>Zmierz rozstaw źrenic</li>
+              <li>Polityka prywatności</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3>O Nas</h3>
+            <ul>
+              <li>Poznaj OPTIC</li>
+              <li>Blog</li>
+              <li>Projekty UE</li>
+              <li>Mapa strony</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
