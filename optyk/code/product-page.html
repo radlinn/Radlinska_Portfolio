@@ -45,6 +45,19 @@
                   <a href="./login.html"><i class="bx bx-user-circle"></i></a>
                 </div>
               </div>
+              <div class="menu-icon">
+                <div class="menu" onclick="menutoggle()">
+                  <i class='bx bx-menu' ></i>
+                </div>
+              </div>
+              <ul id="MenuItems">
+                <li><a href="./products.html">Zerówki</a></li>
+                <li><a href="">Przeciwsłoneczne</a></li>
+                <li><a href="">Badanie wzroku</a></li>
+                <li><a href="">Akcesoria</a></li>
+                <li><a href="">O nas</a></li>
+                <li><a href="">Showroom</a></li>
+            </ul>
             </div>
           </div>
         </nav>
@@ -137,27 +150,27 @@
           <div class="row-text">
             <h2>Inni przeglądali też:</h2>
           </div>
-          <div class="row">
+          <div class="space-between">
             <div class="col-4 hover">
-              <img src="../images/product5.jpg" alt="okulary" />
+              <img src="../images/product4.png" alt="okulary" />
               <div class="text-on-hover">
                 <p>Sprawdź teraz &#10095;</p>
               </div>
             </div>
             <div class="col-4 hover">
-              <img src="../images/product2.png" alt="okulary" />
+              <img src="../images/product4.png" alt="okulary" />
               <div class="text-on-hover">
                 <p>Sprawdź teraz &#10095;</p>
               </div>
             </div>
             <div class="col-4 hover">
-              <img src="../images/product3.png" alt="okulary" />
+              <img src="../images/product4.png" alt="okulary" />
               <div class="text-on-hover">
                 <p>Sprawdź teraz &#10095;</p>
               </div>
             </div>
             <div class="col-4 hover">
-              <img src="../images/product1.jpg" alt="okulary" />
+              <img src="../images/product4.png" width="50%" alt="okulary" />
               <div class="text-on-hover">
                 <p>Sprawdź teraz &#10095;</p>
               </div>
@@ -170,7 +183,7 @@
             <div class="row-text">
               <h2>Dlaczego warto zbadać u nas wzrok?</h2>
             </div>
-            <div class="row row-3">
+            <div class="row baseline">
               <div class="col-3">
                 <p>
                   Jestem bardzo zadowolona z usług oraz z&nbsp;okularów. Miałam
@@ -246,6 +259,26 @@
         </div>
       </div>
     </footer>
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+MenuItems.style.maxHeight = "0px";
+function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "320px";
+        }
+    else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+}
+document.addEventListener("click", function(event) {
+    var menu = document.querySelector(".menu-icon");
+    if (!menu.contains(event.target) && !MenuItems.contains(event.target)) {
+        MenuItems.style.maxHeight = "0px";
+    }
+});
+    </script>
     <script src="index.js"></script>
   </body>
 </html>

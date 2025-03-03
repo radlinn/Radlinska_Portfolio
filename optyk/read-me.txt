@@ -1,1 +1,6 @@
 Strona powstała z inspiracji stroną Muscata i mojej poprzedniej strony RedStore.
+Nie jest idealna (szczególnie wersja mobilna, jednak postawiłam na jak najszybsze zrobienie jej)
+To co na pewno bym poprawiła to: footer w wersji mobilnej (trochę nie miałam na niego pomsłu, a mniej więcej taki był na stronie muscata)
+I żeby  w wersji mobilnej okienka select otwierały się do dołu, szukałam na to odpowiedzi, ale nie mogłam znaleźć. 
+Ostatno na zajęciach też miałam o pisaniu czystszego kodu oraz o praktyce mobile-first, więc kolejne projekty chciałabym robić zgodnie z tą zasadą.
+Zrezygnowałam z róznych zdjęć mimo tego, że uzbierałam ich trochę ponieważ chciałam, żeby to była tylko strona podglądowa. 
